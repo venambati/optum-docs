@@ -17,7 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `/optum-docs/content/blog`,
+        path: `${__PATH_PREFIX__}/content/blog`,
         name: `blog`,
       },
     },
@@ -48,7 +48,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `/optum-docs/content/assets`,
+        path: `${__PATH_PREFIX__}/content/assets`,
         name: `assets`,
       },
     },
