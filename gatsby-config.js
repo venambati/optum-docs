@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby Starter Blog`,
-    pathPrefix: `${__dirname}/content/blog`,
+    pathPrefix: "/optum-docs",
     author: {
       name: `Kyle Mathews`,
       summary: `who lives and works in San Francisco building useful things.`,
