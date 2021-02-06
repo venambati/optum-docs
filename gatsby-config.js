@@ -31,7 +31,7 @@ module.exports = {
                     resolve: 'gatsby-tinacms-git',
                     options: {
                         pathToRepo: __dirname,
-                        pathToContent: '/',
+                        pathToContent: '/optum-docs',
                         gitRemote: 'https://github.com/venambati/optum-docs.git',
                         sshKey: '-----BEGIN OPENSSH PRIVATE KEY----- b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZWQyNTUxOQAAACAhWa0+ZiAd0B3t/Hw2wTx8YN1eKveM98SO1t8NxBCIIQAAAJho/hvqaP4b6gAAAAtzc2gtZWQyNTUxOQAAACAhWa0+ZiAd0B3t/Hw2wTx8YN1eKveM98SO1t8NxBCIIQAAAEBgxfa4ofAMYIpomN0Lh3itAV1pJDsSrSH8zJ77KINE4CFZrT5mIB3QHe38fDbBPHxg3V4q94z3xI7W3w3EEIghAAAAEnZfYW1iYXRpQHlhaG9vLmNvbQECAw==-----END OPENSSH PRIVATE KEY-----',
                         defaultCommitMessage: 'My default commit message',
