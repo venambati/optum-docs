@@ -1,17 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    pathPrefix: "/optum-docs",
+    title: `Optum Docs`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `MBM Teams`,
+      summary: `MBM Teams`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `optum`,
     },
   },
+  pathPrefix: "/optum-docs",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
