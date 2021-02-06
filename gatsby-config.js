@@ -4,6 +4,7 @@ module.exports = {
     author: {
       name: `MBM Teams`,
       summary: `MBM Teams`,
+    pathPrefix: "/optum-docs",
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
