@@ -17,7 +17,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
+        path: `${pathPrefix}/content/blog`,
         name: `blog`,
       },
     },
@@ -48,7 +48,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/assets`,
+        path: `${pathPrefix}/content/assets`,
         name: `assets`,
       },
     },
